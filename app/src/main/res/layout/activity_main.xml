@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.celiachen.lecture0416.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Speak" />
+
+    <EditText
+        android:id="@+id/txtEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:layout_gravity="fill"
+        android:padding="10dp"
+        android:background="@drawable/textboxstyle" />
+</RelativeLayout>
